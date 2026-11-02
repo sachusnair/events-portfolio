@@ -3,3 +3,5 @@
 .project-label:has(.realistic-visual){display:flex;flex-wrap:wrap;gap:16px;padding:18px;min-height:0}.realistic-visual{flex-basis:100%;margin:0}.realistic-visual img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover}.realistic-visual figcaption{font:10px/1.5 Arial,sans-serif;letter-spacing:0;margin-top:9px;color:#405344}@media print{.realistic-visual img{max-height:110pt}.realistic-visual figcaption{font-size:7pt}}
 
 .cv-link{display:inline-block;margin-top:16px;font-size:14px}.contact-grid .cv-link{margin:16px 0 0}
+
+.cv-button{display:inline-block;width:fit-content;font:13px Arial,sans-serif;border:1px solid var(--ink);padding:13px 18px;color:var(--ink);text-decoration:none;margin-top:12px}.cv-button:hover{background:var(--ink);color:var(--paper)}
